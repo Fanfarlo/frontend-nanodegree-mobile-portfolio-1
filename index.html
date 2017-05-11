@@ -7,8 +7,10 @@
     <meta name="description" content="This portafolio is about all my work as a web developer">
     <meta name="author" content="Miguelo Malpartida">
     <title>Cameron Pittman: Portfolio</title>
+    <!-- media attribute and minified css for avoid rendering blocking -->
+    <link href="css/print.css" rel="stylesheet" media="print">
     <!--Inline styles  -->
-    <style>
+    <style media="screen">
   /* latin */
   @font-face {
     font-family: 'Open Sans';
@@ -76,8 +78,7 @@
       header p { padding-left: 4.5em;}
     }
     </style>
-    <!-- media attribute and minified css for avoid rendering blocking -->
-    <link href="css/print.css" rel="stylesheet" media="print">
+
   </head>
 
   <body>
@@ -132,7 +133,6 @@
       ga('send', 'pageview');
     </script>
     <!-- Async Atribbute for avoid JS blocking  -->
-    <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
 
   </body>
