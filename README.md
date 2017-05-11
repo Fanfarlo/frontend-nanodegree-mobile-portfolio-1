@@ -2,19 +2,21 @@
 This a project for optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 ### My Optimizations
-* Adjust the layout to any viewport device
-* Inline styles and js
-* Async Atribbute for js files
-* Media attribute for css
-* JS minification 
-* Compressed images 
-* HTTP catching 
+* Adjusted the layout for any viewport device
+* Inlined CSS and JS
+* Async Attribute for JS files
+* Media attribute for CSS
+* JS minification
+* Compressed images
+* Added HTTP caching
+* Reduced the time to resize pizzas less than 5 ms
+* Solved FSN in \views\js.main
 
 ### Getting started
 ####Part 1: Optimize PageSpeed Insights score for index.html
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
