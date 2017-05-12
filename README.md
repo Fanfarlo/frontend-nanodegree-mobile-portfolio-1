@@ -4,13 +4,13 @@ This a project for optimize this online portfolio for speed! In particular, opti
 ### Getting started
 Download this repository [here](https://github.com/Fanfarlo/mobile_portfolio/archive/master.zip).
 
-####Part 1: Optimize PageSpeed Insights score
+#### Part 1: Optimize PageSpeed Insights score
 * Open index.html
 * Apply all the techniques you know for optimizations.
 * Check your index.html in [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=es).
 * index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop.
 
-####Part 2: Optimize 60 Frames per Second for pizza.html
+#### Part 2: Optimize 60 Frames per Second for pizza.html
 * Open views/pizza.html
 * Apply all the techniques you know for optimizations.
 * Check your views/pizza.html performance in the timeline.
